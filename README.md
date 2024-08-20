@@ -2,6 +2,8 @@
 
 [React-Three-Next starter](https://github.com/pmndrs/react-three-next)
 
+https://docs.github.com/pt/actions/writing-workflows/choosing-what-your-workflow-does/workflow-commands-for-github-actions
+
 [Can't build/deploy to github pages my NextJS app](https://stackoverflow.com/questions/78491434/cant-build-deploy-to-github-pages-my-nextjs-app-after-implementing-next-intl)
 
 [Doesn't recognize next.config.mjs](https://github.com/actions/configure-pages/issues/107)

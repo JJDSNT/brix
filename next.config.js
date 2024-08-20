@@ -13,6 +13,7 @@ const withPWA = require('@ducanh2912/next-pwa').default({
 
 const nextConfig = {
   output: 'export',
+  // distDir: 'dist',
   // uncomment the following snippet if using styled components
   // compiler: {
   //   styledComponents: true,
