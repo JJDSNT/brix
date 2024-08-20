@@ -45,7 +45,7 @@ export default function Page() {
         </div> */}
       </div>
 
-      <div className='mx-auto flex w-full flex-col flex-wrap items-center p-12 md:flex-row  lg:w-4/5'>
+      <div className='mx-auto flex w-full flex-col flex-wrap items-center md:flex-row'>
         {/* first row */}
         {/* <div className='relative h-48 w-full py-6 sm:w-1/2 md:my-12 md:mb-40'>
           <h2 className='mb-3 text-3xl font-bold leading-none text-gray-800'>Events are propagated</h2>
