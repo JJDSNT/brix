@@ -16,7 +16,8 @@ export const Blob = ({ route = '/', ...props }) => {
       onClick={() => router.push(route)}
       onPointerOver={() => hover(true)}
       onPointerOut={() => hover(false)}
-      {...props}>
+      {...props}
+    >
       <sphereGeometry args={[1, 64, 64]} />
       <MeshDistortMaterial roughness={0.5} color={hovered ? 'hotpink' : '#1fb2f5'} />
     </mesh>
@@ -67,7 +68,7 @@ export function Dog(props) {
   return <primitive object={scene} {...props} />
 }
 export function Brix(props) {
-  const { scene } = useGLTF('/brix_logo.glb')
+  const { scene } = useGLTF('/brix/brix_logo.glb')
 
   return <primitive object={scene} {...props} />
 }
