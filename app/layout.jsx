@@ -1,23 +1,14 @@
-import { Layout } from '@/components/dom/Layout'
-import '@/global.css'
+import './globals.css'
 
 export const metadata = {
-  title: 'Brix',
-  description: 'Comunicação e eventos',
+  title: 'Brix Comunicação',
+  description: 'Agência de eventos',
 }
 
 export default function RootLayout({ children }) {
   return (
-    <html lang='en' className='antialiased'>
-      {/*
-        <head /> will contain the components returned by the nearest parent
-        head.tsx. Find out more at https://beta.nextjs.org/docs/api-reference/file-conventions/head
-      */}
-      <head />
-      <body>
-        {/* To avoid FOUT with styled-components wrap Layout with StyledComponentsRegistry https://beta.nextjs.org/docs/styling/css-in-js#styled-components */}
-        <Layout>{children}</Layout>
-      </body>
+    <html lang='pt-BR'>
+      <body>{children}</body>
     </html>
   )
 }
